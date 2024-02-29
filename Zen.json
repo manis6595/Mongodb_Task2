@@ -1,0 +1,37 @@
+{
+    "users": [
+        { "_id": 1, "name": "John Doe", "mentee_count": 10, "absent_dates": ["2020-10-20"] },
+        { "_id": 2, "name": "Jane Doe", "mentee_count": 20, "absent_dates": ["2020-10-25"] },
+   
+    ],
+    "codekata": [
+        { "_id": 101, "user_id": 1, "problems_solved": 50, "submission_date": "2020-10-10" },
+        { "_id": 102, "user_id": 2, "problems_solved": 40, "submission_date": "2020-10-15" },
+        
+    ],
+    "attendance": [
+        { "_id": 201, "user_id": 1, "date": "2020-10-20", "status": "absent" },
+        { "_id": 202, "user_id": 2, "date": "2020-10-25", "status": "absent" },
+        
+    ],
+    "topics": [
+        { "_id": 301, "name": "MongoDB Basics" },
+        { "_id": 302, "name": "Node.js Fundamentals" },
+        
+    ],
+    "tasks": [
+        { "_id": 401, "user_id": 1, "topic_id": 301, "task_description": "MongoDB Assignment", "submission_date": "2020-10-15" },
+        { "_id": 402, "user_id": 2, "topic_id": 302, "task_description": "Node.js Project", "submission_date": "2020-10-20" },
+        
+    ],
+    "company_drives": [
+        { "_id": 501, "drive_name": "TechCorp Placement", "drive_date": "2020-10-25" },
+        { "_id": 502, "drive_name": "CodeNinja Hiring", "drive_date": "2020-10-30" },
+        
+    ],
+    "mentors": [
+        { "_id": 601, "name": "Mentor1", "mentee_count": 18 },
+        { "_id": 602, "name": "Mentor2", "mentee_count": 25 },
+        
+    ]
+}
